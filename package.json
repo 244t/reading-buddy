@@ -1,0 +1,13 @@
+{
+  "name": "reading-buddy",
+  "private": true,
+  "workspaces": [
+    "hub",
+    "extension"
+  ],
+  "scripts": {
+    "hub": "npm run start -w hub",
+    "hub:dev": "npm run dev -w hub",
+    "ext": "npm run build -w extension"
+  }
+}
